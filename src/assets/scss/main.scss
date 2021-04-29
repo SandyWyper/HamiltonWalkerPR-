@@ -75,15 +75,44 @@
 @import 'layout/menu';
 
 .logo-hw {
-  width: calc(100% - 3em);
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 3rem;
-  max-width: 350px;
-  @include breakpoint(large) {
+  max-width: 440px;
+  @include breakpoint(small) {
+    max-width: 66vw;
+  }
+  @include breakpoint(xsmall) {
+    max-width: 70vw;
+  }
+  @include breakpoint(xxsmall) {
+    max-width: 80vw;
   }
 }
+
 .light-text {
   color: _palette(fg);
+}
+
+.footer {
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    @include breakpoint(medium) {
+      text-align: center;
+      display: block;
+    }
+  }
+  background-color: #32292f;
+  color: white;
+  padding: 0.5rem 0rem;
+  p {
+    margin-bottom: 0;
+    padding: 0.25rem;
+  }
 }

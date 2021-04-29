@@ -9,22 +9,26 @@ const Banner = props => (
       <div className="content">
         <div>
           <p>
-            Working with our clients to build and protect positive reputations.
+            We work with our clients to build and protect positive reputations.
+            <br />
             Using strategic, integrated public relations and marketing
             communications, we create connections with the people you want to
-            talk to. that drive change.
+            talk to.
           </p>
-          <p className="margin-bottom-4point5">
+          <p className="margin-bottom-4point5" style={{ fontSize: '1.185rem' }}>
             New website launching soon. In the meantime, let’s talk!
           </p>
+          <ul
+            className="actions"
+            style={{ display: 'flex', justifyContent: 'flex-end' }}
+          >
+            <li>
+              <a href="#contact" className="button next scrolly">
+                Get in touch
+              </a>
+            </li>
+          </ul>
         </div>
-        <ul className="actions">
-          <li>
-            <a href="#contact" className="button next scrolly">
-              Get in touch
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   </section>

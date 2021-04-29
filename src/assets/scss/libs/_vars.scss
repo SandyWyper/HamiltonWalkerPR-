@@ -31,7 +31,7 @@ $font: (
   weight: 300,
   weight-bold: 400,
   letter-spacing: 0.025em,
-  letter-spacing-alt: 0.25em,
+  letter-spacing-alt: 0.14em,
 );
 // // Font.
 // $font: (
@@ -52,7 +52,7 @@ $font: (
 
 // Palette.
 $palette: (
-  bg: #deecec,
+  bg: #fff,
   // bg: #83b6b7,
     bg-alt: #32292f,
   fg: #ffffff,
@@ -65,6 +65,6 @@ $palette: (
   accent2: #8d82c4,
   accent3: #ec8d81,
   accent4: #e7b788,
-  accent5: rgba(239, 121, 125, 0.7),
+  accent5: #deecec,
   accent6: #32292f,
 );

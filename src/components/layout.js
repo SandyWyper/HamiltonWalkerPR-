@@ -52,7 +52,22 @@ class Layout extends React.Component {
           </Link> */}
           {children}
           <Contact />
-          <Footer />
+          <footer class="footer">
+            <div>
+              <p>&copy;Hamilton Walker Public Relations Limited 2021</p>
+              <p>
+                Powered by
+                <a
+                  href="https://tinderboxwebsolutions.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ fontWeight: 600 }}
+                >
+                  &nbsp;Tinderbox Web Solutions
+                </a>
+              </p>
+            </div>
+          </footer>
         </div>
         <Menu onToggleMenu={this.handleToggleMenu} />
       </div>

@@ -99,6 +99,12 @@ class Contact extends Component {
                 </li>
               </ul>
             </form>
+            <p style={{ fontSize: '0.875rem' }}>
+              *By submitting your email address, you are permitting us to
+              contact you by email in response to your enquiry. We will treat
+              your personal information with respect in accordance with our
+              privacy policy.
+            </p>
           </section>
           <section className="split">
             <section>
