@@ -116,3 +116,9 @@
     padding: 0.25rem;
   }
 }
+.hidden-large {
+  display: none;
+  @include breakpoint(xsmall) {
+    display: block !important;
+  }
+}
