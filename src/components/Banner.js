@@ -11,7 +11,7 @@ const Banner = props => (
           <p>
             We work with our clients to build and protect positive reputations.
             <br />
-            <br class="hidden-large" />
+            <br className="hidden-large" />
             Using strategic, integrated public relations and marketing
             communications, we create connections with the people you want to
             talk to.

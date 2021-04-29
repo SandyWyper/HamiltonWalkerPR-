@@ -28,8 +28,9 @@
   position: relative;
   top: -3.25em;
   align-items: flex-end;
-  // @include breakpoint(medium) {
-  // }
+  @include breakpoint(small) {
+    background-position: top;
+  }
   text-align: center;
 
   &:after {
