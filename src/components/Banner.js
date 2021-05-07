@@ -13,8 +13,8 @@ const Banner = props => (
             <br />
             <br className="hidden-large" />
             Using strategic, integrated public relations and marketing
-            communications, we create connections with the people you want to
-            talk to.
+            communications, we create connections with the people who matter to
+            you.
           </p>
           <p className="margin-bottom-4point5" style={{ fontSize: '1.185rem' }}>
             New website launching soon. In the meantime, let’s talk!
