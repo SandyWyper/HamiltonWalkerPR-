@@ -54,7 +54,10 @@ class Layout extends React.Component {
           <Contact />
           <footer class="footer">
             <div>
-              <p>&copy;Hamilton Walker Public Relations Limited 2021</p>
+              <p>
+                &copy;Hamilton Walker Public Relations Limited{' '}
+                {new Date().getFullYear()}
+              </p>
               <p>
                 Powered by
                 <a
