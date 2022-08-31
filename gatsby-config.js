@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Forty V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Forty by HTML5 UP',
+    title: 'Hamilton Walker PR',
+    author: 'Sandy Wyper',
+    description: `We work with our clients to build and protect positive reputations.
+    Using strategic, integrated public relations and marketing communications, we create connections with the people who matter to you.`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -1,12 +1,9 @@
 import React from 'react'
-// import { Link } from 'gatsby'
 
 import '../assets/scss/main.scss'
-// import Header from './Header'
+
 import Menu from './Menu'
 import Contact from './Contact'
-import Footer from './Footer'
-// import LogoSVG from './LogoSVG'
 
 class Layout extends React.Component {
   constructor(props) {
@@ -46,10 +43,6 @@ class Layout extends React.Component {
         }`}
       >
         <div id="wrapper">
-          {/* <Header onToggleMenu={this.handleToggleMenu} /> */}
-          {/* <Link to="/">
-            <LogoSVG classes={`logo-hw`} />
-          </Link> */}
           {children}
           <Contact />
           <footer class="footer">
